@@ -33,7 +33,7 @@ int main() {
 	 * Load image into OpenCV matrix and transfer to vector as linearized matrix
 	*/
 
-	Mat image = imread("Images/Pikachu.jpg", IMREAD_GRAYSCALE);
+	Mat image = imread("/content/padp-self-study/modified-cuda-GaussianBlur/Images/Pikachu.jpg", IMREAD_GRAYSCALE);
 	if (!image.data || !image.isContinuous()) {
 		cout << "Could not open image file." << endl;
 		exit(EXIT_FAILURE);

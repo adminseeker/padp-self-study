@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
     //Read image
-    Mat image = imread("Pikachu.jpg",IMREAD_GRAYSCALE);
+    Mat image = imread("/content/padp-self-study/modified-cuda-GaussianBlur/Images/Pikachu.jpg",IMREAD_GRAYSCALE);
 
     //check if image exits
     if(image.empty()){
